@@ -6,21 +6,27 @@ body{
     font-weight: bold;
     font-size: 1.05em;
 }
-.sidenav{
-    width: 30%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: black;
+.top-nav{
+    border: 3px dashed darkgray;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-.sidenav a, h2, li{
+.top-nav a,.top-nav h2,.top-nav p{
     color: grey;
+    text-align: center;
 }
-.sidenav a:hover {
+a:hover {
     border: 1px dotted purple;
 }
 .main-content{
-    margin-left: 30%;
+    
+}
+.info{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+.info a{
+    text-decoration: none;
+    color: mediumorchid;
 }
