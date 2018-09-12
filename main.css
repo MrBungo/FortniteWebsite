@@ -1,0 +1,26 @@
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: lightgray;
+}
+.first-words{
+    font-weight: bold;
+    font-size: 1.05em;
+}
+.sidenav{
+    width: 30%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a, h2, li{
+    color: grey;
+}
+.sidenav a:hover {
+    border: 1px dotted purple;
+}
+.main-content{
+    margin-left: 30%;
+}
