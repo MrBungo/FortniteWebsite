@@ -2,6 +2,9 @@ body{
     font-family: "Trebuchet MS", sans-serif;
     background-color: lightgray;
 }
+h1{
+    text-align: center;
+}
 .first-words{
     font-weight: bold;
     font-size: 1.05em;
@@ -19,9 +22,6 @@ body{
 a:hover {
     border: 1px dotted purple;
 }
-.main-content{
-    
-}
 .info{
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgray;
@@ -36,4 +36,11 @@ a:hover {
     font-family: "Impact", monospace;
     color: red;
     font-size: 1.1em;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 3px;
 }
