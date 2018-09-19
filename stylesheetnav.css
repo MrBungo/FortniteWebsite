@@ -23,6 +23,8 @@ a:hover {
     border: 1px dotted purple;
 }
 .info{
+    margin-top: 4px;
+    margin-bottom: 4px;
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgray;
     font-family: monospace;
