@@ -42,6 +42,7 @@ a:hover {
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
+    font-family: monospace;
 }
 th, td{
     padding: 3px;
